@@ -13,7 +13,7 @@ This Python script provides 2 independent functions:
 
 - To use this function, you need to create a Python list containing all your lexemes. This list can be generated from a LIFT file using function 'extractLexemesFromLiftFile' provided by this script. If your lexicon is stored in a file with another extension, you need to extract the lexemes from it by your own means.
 
-- In your terminal, type: generateSetsOfMinimalPairs(<name of your Python list of lexemes>) or generateSetsOfMinimalPairs(\<name of your Python list of lexemes\>, '\<set of vowels of your language\>', '\<set of consonants of your language\>', '\<set of tones of your language\>'). If you have a LIFT file (in the same directory as this script), you can extract the list of lexemes at the same time as you generate the minimal pairs by writing : generateSetsOfMinimalPairs(extractLexemesFromLiftFile('\<name of your LIFT file\>.lift') as the first argument of the function.
+- In your terminal, type: generateSetsOfMinimalPairs(\<name of your Python list of lexemes\>) or generateSetsOfMinimalPairs(\<name of your Python list of lexemes\>, '\<set of vowels of your language\>', '\<set of consonants of your language\>', '\<set of tones of your language\>'). If you have a LIFT file (in the same directory as this script), you can extract the list of lexemes at the same time as you generate the minimal pairs by writing : generateSetsOfMinimalPairs(extractLexemesFromLiftFile('\<name of your LIFT file\>.lift') as the first argument of the function.
 
 A TXT file containing all the minimal pairs will be created in the same directory as this Python script.
 
