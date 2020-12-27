@@ -19,6 +19,7 @@ A TXT file containing all the minimal pairs will be created in the same director
 
 
 Example of use of the two functions together: generateSetsOfMinimalPairs(extractLexemesFromLiftFile('Minimal_Pairs.lift', 'M'bottiny'), 'aæeəɛiɪoɔuʊʌɜ', 'ptkbdgqβɸɣrxχʁlnmjɲŋɴɢhywfvˠɾycsʸʙ', '́̄̀̂̌')
+
 WARNING: the output file 'minimalPairs.txt' of function 'generateSetsOfMinimalPairs' is overwritten everytime you run the function. To save the output file, copy it in another directory or rename it.
 
 
