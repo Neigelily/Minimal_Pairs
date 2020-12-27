@@ -210,5 +210,3 @@ def generateSetsOfMinimalPairs(listOfLexemes, setOfVowels = "aɑɐɒæeɛɜəɤi
     print("Consequently, minimal pairs involving one of these characters have been placed in the list 'Other pairs'.")        
        
            
-     
-#generateSetsOfMinimalPairs(extractLexemesFromLiftFile("Minimal_Pairs.lift", "M'bottiny"), "aæeəɛiɪoɔuʊʌɜ", "ptkbdgqβɸɣrxχʁlnmjɲŋɴɢhywfvˠɾycsʸʙ", "́̄̀̂̌᷉")
